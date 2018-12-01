@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: puma
+    volumes:
+      - .:/sandbox_manager
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/sandbox_manager
+
