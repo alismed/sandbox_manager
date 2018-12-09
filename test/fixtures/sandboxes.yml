@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  sandbox_type: MyString
+  description: MyText
+  start_date: 2018-12-01
+  expected_end_date: 2018-12-01
+  end_date: 2018-12-01
+  owner: MyString
+  owner_team: MyString
+
+two:
+  name: MyString
+  sandbox_type: MyString
+  description: MyText
+  start_date: 2018-12-01
+  expected_end_date: 2018-12-01
+  end_date: 2018-12-01
+  owner: MyString
+  owner_team: MyString

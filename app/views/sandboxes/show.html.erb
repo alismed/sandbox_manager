@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sandbox.name %>
+</p>
+
+<p>
+  <strong>Sandbox type:</strong>
+  <%= @sandbox.sandbox_type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @sandbox.description %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @sandbox.start_date %>
+</p>
+
+<p>
+  <strong>Expected end date:</strong>
+  <%= @sandbox.expected_end_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @sandbox.end_date %>
+</p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @sandbox.owner %>
+</p>
+
+<p>
+  <strong>Owner team:</strong>
+  <%= @sandbox.owner_team %>
+</p>
+
+<%= link_to 'Edit', edit_sandbox_path(@sandbox) %> |
+<%= link_to 'Back', sandboxes_path %>
